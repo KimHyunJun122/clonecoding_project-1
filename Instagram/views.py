@@ -4,4 +4,4 @@ from rest_framework.views import APIView
 
 class Main(APIView):
     def get(self, request):
-        return render(request, 'Instagram/main.html')
+        return render(request, 'Instagram/home.html')
